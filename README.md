@@ -12,7 +12,7 @@ This repository contains the R code used to generate the statistical results and
     *   **Input:** Processed qpWave RDS files and metadata maps.
     *   **Output:** Enrichment statistics tables for ChL-EBA, EBA-LBA, and IA-Hist periods.
 
-*   **`Bayesian_GLM_Kinship_Correction.R`**:
+*   **`Bayesian_GLM_PopStruct_Correction.R`**:
     *   **Purpose:** Runs a Bayesian GLM (MCMCglmm) to predict significant connections to the surrounding meta-regions while controlling for genetic structure.
     *   **Usage:** Designed to be run via command line (e.g., `Rscript Bayesian_GLM_Kinship_Correction.R <Individual_ID>`).
     *   **Output:** Diagnostic plots (Trace, PPC, ROC) and summary tables of Log-Odds and genetic variance.
